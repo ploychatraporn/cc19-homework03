@@ -1,0 +1,124 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   background-image: url(img/backgroud.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   color: white;
+   flex-direction: column;
+   align-items: center;
+   height: 100%;
+   text-align: center;
+   font-family: "Yantramanav", sans-serif;
+}
+
+header {
+   margin-top: 15px;
+   margin-left: 600px;
+   font-size: 10px;
+  
+}
+
+h1 {
+   font-size: 40px;
+   margin-top: 100px;
+   margin-bottom: 10px;
+}
+
+p {
+   font-size: 10px;
+   margin-bottom: 10px;
+   /* opacity: 0.8;  */
+   margin-top: 20px;
+}
+
+.notify {
+            background-color: #57939b;
+            color: white;
+            padding: 5px 6px;
+            border: none;
+            text-decoration: none;
+            font-size: 10px;    
+            margin-bottom: 30px;
+            margin-top: 30px;
+            
+}
+
+.icon {
+   
+   width: 20px;
+   height: 20px;
+   border: 1px solid white;
+   border-radius: 50%;
+   margin-top: 20px;
+   justify-content: center;
+   align-content: center;
+   padding: 4px;
+   overflow: hidden;
+
+   
+}
+
+
+.box {
+   width: 300px; 
+   margin: 0 auto;
+   /* display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   */
+   
+   
+  
+}
+
+
+   
+.progress-bar {
+   
+   width: 100%; 
+   height: 10px;
+   background-color: rgb(225, 242, 229);
+   overflow: hidden; 
+   box-shadow: 4px 2px 20px black;
+   position: relative; 
+   margin: 10px 0;
+
+}
+
+.progress {
+
+   width: 70%;
+   height: 100%;
+   background: #57939b;   
+   position: absolute;
+   top: 0%;
+   left: 0;
+   
+}
+
+.box p {
+
+   font-size: 10px;
+   display: flex;
+   justify-content: space-between;
+   margin: 5px 0;
+}
+.container{
+   height: 90px;
+ } 
+
+   footer {
+      font-size: 8px;
+      color: dimgrey;
+      margin-top: 100px;
+      border-top: 1px solid dimgray;
+      padding:  10px;
+   
+   }
+
+   
+   
